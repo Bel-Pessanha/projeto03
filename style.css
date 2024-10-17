@@ -1,0 +1,72 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.cabecalho {
+    background-color: aquamarine;
+
+    margin: auto;
+    padding: 0px;
+
+    text-align: center;
+}
+
+.menu {
+    background-color: darksalmon;
+
+    text-align: end;
+    text-decoration: none;
+
+
+    min-height: 30px;
+    align-content: center;
+    display: flex;
+
+    /*tentativa de alinhar o painel HOME e o campo de pesquisa*/
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+
+}
+
+.pesquisa {
+    background-color: white;
+
+    max-width: 500px;
+    min-height: 10px;
+
+
+}
+
+main {
+    background-color: rgb(236, 142, 236);
+    padding-top: 10px;
+    min-height: 1500px;
+
+}
+
+.conteudo {
+    background-color: darkslategray;
+
+    width: 1000px;
+    margin: auto;
+
+
+
+    padding: 10px;
+
+
+}
+
+.rodape {
+    background-color: limegreen;
+
+
+}
