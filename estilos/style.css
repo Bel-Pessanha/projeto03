@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+:root {
+
+    --sombra: 5px 5px 1px 3px black;
+    --cor01: rgb(28, 156, 199);
+    --cor02:  aliceblue;
+
+   
+
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+html,
+body {
+
+    background-color: var(--cor02);
+    
+
+
+}
+
+header {
+    background-color: var(--cor01);
+    text-align: center;
+    align-content: center;
+    height: 100px;
+    box-shadow: var(--sombra);
+    margin: 30px;
+
+}
+header > h1{
+    font-size: 5vw;
+}
+
+h1 {
+    font-size: 2vw;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+
+
+
+
+
+}
+p{
+    font-size: 2vw;
+    padding: 5px;
+}
+
+menu {
+
+    display: flex;
+    flex-direction: row-reverse;
+
+
+    text-decoration: none;
+
+
+
+    background-color: var(--cor01);
+    box-shadow: var(--sombra);
+
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+
+}
+
+.barrinha {
+
+    align-content: center;
+    text-align: center;
+
+    width: 200px;
+    height: 70px;
+
+
+
+
+
+}
+
+.pesquisa {}
+
+main {
+    display: flex;
+}
+
+
+.principal {
+    background-color: var(--cor01);
+    box-shadow: var(--sombra);
+    height: auto;
+
+    margin-left: 100px;
+    margin-bottom: 20px;
+
+    padding: 20px;
+
+}
+.postagem{
+    background-color:var(--cor02);
+    box-shadow: var(--sombra);
+
+    text-align: center;
+
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.conteudo {
+
+    background-color:var(--cor02);
+    box-shadow: var(--sombra);
+    text-align: justify;
+
+    padding: 5px;
+
+    height: auto;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /*  overflow: auto;  coloca a barra de rolagem no texto da div conteudo*/
+    box-sizing: border-box;
+   
+}
+
+.secundaria {
+
+    background-color: var(--cor01);
+    box-shadow: var(--sombra);
+
+    width: 200px;
+    height: 90vh;
+
+    margin-left: 15px;
+    margin-right: 100px;
+
+    padding: 20px;
+
+
+}
+
+footer {
+    text-align: center;
+    background-color: var(--cor01);
+
+
+}
