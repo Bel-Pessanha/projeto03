@@ -2,7 +2,7 @@
 
 :root {
 
-    --sombra: 5px 5px 1px 3px black;
+    --sombra: 3px 4px 1px 2px black;
     --cor01: rgb(28, 156, 199);
     --cor02:  aliceblue;
 
@@ -49,12 +49,8 @@ a {
     text-decoration: none;
     color: black;
 
-
-
-
-
-
 }
+
 p{
     font-size: 2vw;
     padding: 5px;
@@ -88,11 +84,13 @@ menu {
 
     width: 200px;
     height: 70px;
-
-
-
-
-
+}
+menu>:hover{
+    background-color: var(--cor02);
+    border: 1px solid rgba(0, 0, 0, 0.547);
+    transform: translate(-5px, -3px);/*faz comque o botão se mova qiuando passa o mause em cima*/
+    box-shadow: var(--sombra);
+    transition: transform 2s;/*é o tempo para que a função transform realize o trabalho(efeito de lentidão)*/
 }
 
 .pesquisa {}
