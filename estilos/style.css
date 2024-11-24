@@ -111,6 +111,19 @@ main {
     padding: 20px;
 
 }
+.principal_perfil{
+
+    background-color: var(--cor01);
+    box-shadow: var(--sombra);
+    height: 80vw;
+
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+
+    padding: 20px;
+
+}
 .postagem{
     background-color:var(--cor02);
     box-shadow: var(--sombra);
@@ -139,6 +152,22 @@ main {
     /*  overflow: auto;  coloca a barra de rolagem no texto da div conteudo*/
     box-sizing: border-box;
    
+}
+.conteudo_perfil{
+
+    background-color:var(--cor02);
+    box-shadow: var(--sombra);
+    text-align: justify;
+
+    padding: 5px;
+
+    height: auto;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /*  overflow: auto;  coloca a barra de rolagem no texto da div conteudo*/
+    box-sizing: border-box;
+
 }
 
 .secundaria {
