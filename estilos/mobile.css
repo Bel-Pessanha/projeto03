@@ -50,6 +50,18 @@ a {
     color: black;
 
 }
+div>a{
+
+    display: block;
+   margin-top: 25px;
+
+    text-decoration: none;
+    color: black;
+    
+    width: 200px;
+    height: 70px;
+
+}
 
 p{
     font-size: 3vw;
