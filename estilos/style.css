@@ -70,41 +70,59 @@ p{
 menu {
 
 display: flex;
+align-items: center;
+justify-content: end;
+
+margin: 0px;
+padding: 0px;
+
 
 }
 .foto_perfil{
 
-  
+    display: flex;
+
     background-color: var(--cor01);
     box-shadow: var(--sombra);
 
-    margin-left: 45px;
+    margin-right: 30px;
+    margin-left: 30px;
+    
     margin-bottom: 25px;
 
-    width: 150px;
-    height: 150px;
+    min-width: 150px;
+    min-height: 150px;
 
     border-radius: 50%;
 }
 
 .barra_menu{
-
+    
     background-color: var(--cor01);
     box-shadow: var(--sombra);
 
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: space-around;
 
-    width: 80vw;
-    margin-left: 65px;
+    width:15000px;
+    height: 150px;
+
     margin-right: 30px;
+    margin-left: 30px;
+   
+   
+    
     margin-bottom: 25px;
+
+   
 }
 
 .barrinha {
 
     display: flex;
+    
+
 
     border-style: solid ;
     border-width: 1.5px;
@@ -114,18 +132,16 @@ display: flex;
     background-color: var(--cor01);
     box-shadow: var(--sombra);
    
-    width: 200px;
+    max-width:200px;
+    min-width: 100px;
    
     height: 70px;
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 20px;
     margin-bottom: 10px;
-    
-    text-align: center;
-    
-    align-items: center;
-    justify-content: center;
+
+   
     
 }
 .barrinha>:hover{
@@ -240,7 +256,6 @@ main {
 
     margin-left: 30px;
     margin-bottom: 20px;
-
   
 }
 
