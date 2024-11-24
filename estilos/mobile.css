@@ -3,7 +3,7 @@
 :root {
 
     --sombra: 3px 4px 1px 2px black;
-    --cor01: rgb(28, 156, 199);
+    --cor01: rgb(255, 0, 0);
     --cor02:  aliceblue;
 
    
@@ -41,7 +41,7 @@ header > h1{
 }
 
 h1 {
-    font-size: 2vw;
+    font-size: 3vw;
 
 }
 
@@ -52,7 +52,7 @@ a {
 }
 
 p{
-    font-size: 1.3vw;
+    font-size: 3vw;
     padding: 5px;
 }
 
@@ -71,8 +71,8 @@ menu {
 
     height: 70px;
     margin-top: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 20px;
 
 }
@@ -82,8 +82,9 @@ menu {
     align-content: center;
     text-align: center;
 
-    width: 200px;
+    width: 250px;
     height: 70px;
+   
 }
 menu>:hover{
     background-color: var(--cor02);
@@ -105,7 +106,8 @@ main {
     box-shadow: var(--sombra);
     height: auto;
 
-    margin-left: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 20px;
 
     padding: 20px;
@@ -143,16 +145,7 @@ main {
 
 .secundaria {
 
-    background-color: var(--cor01);
-    box-shadow: var(--sombra);
-
-    width: 200px;
-    height: 90vh;
-
-    margin-left: 15px;
-    margin-right: 100px;
-
-    padding: 20px;
+display: none;
 
 
 }
