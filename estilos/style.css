@@ -5,10 +5,6 @@
     --sombra: 3px 4px 1px 2px black;
     --cor01: rgb(28, 156, 199);
     --cor02:  aliceblue;
-
-   
-
-
 }
 
 * {
@@ -20,11 +16,9 @@
 }
 
 
-html,
-body {
+body,html{
 
     background-color: var(--cor02);
-    overflow-y: hidden;
 
 }
 
@@ -69,16 +63,20 @@ p{
     padding: 5px;
 }
 
-menu {
+.index_menu{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
 
-padding: 0px;
+menu {
+
+    display: flex;
+    padding: 0px;
 
 }
-.foto{
-   
-   
-}
+
 .foto_perfil{
 
     display: flex;
@@ -95,6 +93,26 @@ padding: 0px;
 
     border-radius: 50%;
  
+}
+
+.index_barra_menu{
+    
+    background-color: var(--cor01);
+    box-shadow: var(--sombra);
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    width:1500px;
+    height: 150px;
+
+    margin-right: 30px;
+    margin-left: 30px;
+    
+    margin-bottom: 25px;
+
+   
 }
 
 .barra_menu{

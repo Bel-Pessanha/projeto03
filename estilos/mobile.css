@@ -53,7 +53,7 @@ a {
 div>a{
 
     display: block;
-   margin-top: 25px;
+   
 
     text-decoration: none;
     color: black;
@@ -68,42 +68,101 @@ p{
     padding: 5px;
 }
 
+.index_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
 menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;   
+
+}
+
+.foto_perfil{
 
     display: flex;
-    flex-direction: row-reverse;
+
+    background-color: var(--cor02);
+    box-shadow: var(--sombra);
+
+    margin-right: 30px;
+    margin-left: 30px;
 
 
-    text-decoration: none;
+    min-width: 100px;
+    min-height: 100px;
 
-
-
+    border-radius: 50%;
+ 
+}
+.index_barra_menu{
+    
     background-color: var(--cor01);
     box-shadow: var(--sombra);
 
-    height: 70px;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    width:1500px;
+    height: 150px;
+
+    margin-right: 30px;
+    margin-left: 30px;
+    
+    margin-bottom: 25px;
+
+   
+}
+.barra_menu{
+    
+    background-color: var(--cor01);
+    box-shadow: var(--sombra);
+    display: flex
+;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 500px;
+    height: 400px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    flex-direction: column-reverse;
 
 }
 
 .barrinha {
 
-    align-content: center;
-    text-align: center;
-
-    width: 250px;
-    height: 70px;
+    display: flex;
+    
+    border-style: solid ;
+    border-width: 1.5px;
+    
+    text-decoration: none;
+    background-color: var(--cor01);
+    box-shadow: var(--sombra);
    
+    max-width:150px;
+    min-width: 50px;
+   
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
 }
-menu>:hover{
+.barrinha>:hover{
     background-color: var(--cor02);
-    border: 1px solid rgba(0, 0, 0, 0.547);
+    border: 1.5px solid rgba(0, 0, 0, 0.547);
     transform: translate(-5px, -3px);/*faz comque o botão se mova qiuando passa o mause em cima*/
     box-shadow: var(--sombra);
-    transition: transform 2s;/*é o tempo para que a função transform realize o trabalho(efeito de lentidão)*/
+    transition: transform 1s;/*é o tempo para que a função transform realize o trabalho(efeito de lentidão)*/
 }
 
 .pesquisa {}
@@ -118,8 +177,21 @@ main {
     box-shadow: var(--sombra);
     height: auto;
 
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+
+    padding: 20px;
+
+}
+.principal_perfil{
+
+    background-color: var(--cor01);
+    box-shadow: var(--sombra);
+    height: 80vw;
+
+    margin-left: 30px;
+    margin-right: 30px;
     margin-bottom: 20px;
 
     padding: 20px;
@@ -154,6 +226,22 @@ main {
     box-sizing: border-box;
    
 }
+.conteudo_perfil{
+
+    background-color:var(--cor02);
+    box-shadow: var(--sombra);
+    text-align: justify;
+
+    padding: 5px;
+
+    height: auto;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /*  overflow: auto;  coloca a barra de rolagem no texto da div conteudo*/
+    box-sizing: border-box;
+
+}
 
 .secundaria {
 
@@ -161,6 +249,11 @@ display: none;
 
 
 }
+.secundaria_perfil{
+    display: none;
+  
+}
+
 
 footer {
     text-align: center;
